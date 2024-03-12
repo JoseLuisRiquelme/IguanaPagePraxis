@@ -65,7 +65,8 @@ left: 731px;
 width: 399px;
 height: 237px;
 /* UI Properties */
-background: transparent url('img/photo-1492963892107-740cd39d9ff3.png') 0% 0% no-repeat padding-box;
+background: transparent url('../img/iguana-1.jpg') 0% 0% no-repeat padding-box;
+background-size: 316px 202px;
 opacity: 1;
 }
 
