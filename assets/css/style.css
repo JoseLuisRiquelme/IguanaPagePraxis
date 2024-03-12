@@ -10,15 +10,17 @@ height: 73px;
 /* UI Properties */
 background: #000000 0% 0% no-repeat padding-box;
 opacity: 1;
+display: flex;
+justify-content: center;
  }
  h1{/* Layout Properties */
-  top: 7px;
-  left: 530px;
+  margin: 7px 530px;
   width: 221px;
   height: 59px;
   /* UI Properties */
   text-align: left;
-  font: normal normal medium 50px/59px Raleway;
+  font: normal normal medium  Raleway;
+  font-size: 50px;
   letter-spacing: 0px;
   color: #FFFFFF;
   opacity: 1;}
@@ -33,8 +35,6 @@ background: transparent url('../img/bg-header.jpg') 0% 0% no-repeat padding-box;
 opacity: 1;
 }
 desc-section{/* Layout Properties */
-  top: 800px;
-  left: 0px;
   width: 1280px;
   height: 348px;
   /* UI Properties */
@@ -42,9 +42,11 @@ desc-section{/* Layout Properties */
   opacity: 1;
   display: flex;
 align-items: center;}
-p{/* Layout Properties */
-  top: 876px;
-  left: 150px;
+desc-section p{/* Layout Properties */
+  margin-top: 76px;
+  margin-bottom: 75px;
+  margin-left: 150px;
+  margin-right: 106px;
   width: 475px;
   height: 197px;
   /* UI Properties */
@@ -56,7 +58,9 @@ p{/* Layout Properties */
 
 .iguana1{
   /* Layout Properties */
-top: 845px;
+margin-top: 45px;
+margin-bottom: 66px;
+margin-right: 150px;
 left: 731px;
 width: 399px;
 height: 237px;
@@ -65,8 +69,7 @@ background: transparent url('img/photo-1492963892107-740cd39d9ff3.png') 0% 0% no
 opacity: 1;
 }
 
-icons-section{top: 1141px;
-  left: 0px;
+icons-section{
   width: 1280px;
   height: 348px;
   background: #1E1A13 0% 0% no-repeat padding-box;
@@ -74,19 +77,22 @@ icons-section{top: 1141px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   }
 .iconsection{
-  display: flex;
-  flex-direction: row;
-  padding: auto;
+display: flex;
+justify-content: flex-start;
 }
 h2{
-  top: 1216px;
-left: 464px;
+margin-top: 75px;
+margin-right: 460.5px;
+margin-left: 463.5px;
+margin-bottom: 50px;
 width: 356px;
 height: 47px;
 text-align: left;
-font: normal normal medium 40px/47px Raleway;
+font: normal normal medium  Raleway;
+font-size: 40px;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
@@ -102,43 +108,56 @@ background: #000000 0% 0% no-repeat padding-box;
 opacity: 0.96;
 display: flex;
 align-items: center;
+justify-content: space-between;
+padding: 5%;
 }
 .iguana2{
-  top: 1561px;
-  left: 150px;
-  width: 316px;
-  height: 202px;
-/* UI Properties */
-background: transparent url('../img/iguana-1.jpg') 0% 0% no-repeat padding-box;
-opacity: 1;
-}
-.iguana3{
-  top: 1561px;
-  left: 150px;
+  margin-top: 73px;
+  margin-right: 16px;
+  margin-left: 150px;
+  margin-bottom: 73px;
   width: 316px;
   height: 202px;
 /* UI Properties */
 background: transparent url('../img/iguana-2.jpg') 0% 0% no-repeat padding-box;
 opacity: 1;
 }
-.iguana4{
-  top: 1561px;
-  left: 150px;
+.iguana3{
+  margin: 73px 16px 73px 0px;
   width: 316px;
   height: 202px;
 /* UI Properties */
 background: transparent url('../img/iguana-3.jpg') 0% 0% no-repeat padding-box;
 opacity: 1;
 }
+.iguana4{
+  margin: 73px 150px 73px 0px;
+  width: 316px;
+  height: 202px;
+/* UI Properties */
+background: transparent url('../img/iguana-4.jpg') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
 footer{
   /* Layout Properties */
-top: 1835px;
-left: 0px;
 width: 1280px;
 height: 102px;
 /* UI Properties */
 background: #1E1A13 0% 0% no-repeat padding-box;
 opacity: 0.94;
 display: flex;
+justify-content: center;
+}
+footer p{
+/* Layout Properties */
+margin: 39px 299px;
+width: 682px;
+height: 24px;
+/* UI Properties */
+text-align: left;
+font: normal normal 300 20px/24px Raleway;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
 }
 
